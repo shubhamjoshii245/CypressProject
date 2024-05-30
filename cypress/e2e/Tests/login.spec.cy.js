@@ -1,6 +1,5 @@
 import loginPage from "../Pages/register";
 import login from "../Pages/login";
-
 import fixture from "../../fixtures/example.json"
 describe('loginTest',()=>
 {
@@ -9,8 +8,10 @@ describe('loginTest',()=>
         cy.visit(fixture.url);
     })
   
+    //used custom commands for login
     it('login details',()=>{
-      login.logindetail();
+       login.sigin();
+       cy.login('shubhamjoshi123@gmail.com','Joshi@786')
     })
 })
 

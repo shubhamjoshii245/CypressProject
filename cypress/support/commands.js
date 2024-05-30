@@ -27,3 +27,10 @@
 // Cypress.Commands.add('clicklink', (label) => {
 //     cy.get('a').contains(label).click();
 //   })
+
+Cypress.Commands.add("login", (username, password) => {
+    
+    cy.get("input[id='email']").type(username);
+    cy.get("input[id='pass']").type(password);
+    cy.get("button[class='action login primary']").click();
+});

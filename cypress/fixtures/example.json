@@ -2,6 +2,10 @@
   "url":"https://magento.softwaretestingboard.com/",
   "name": "shubham",
   "lastname":"joshi",
-  "email": "shubhamjoshi5112@gmail.com",
-  "password": "Joshi@786"
+  "email": "shubhamjoshi13@gmail.com",
+  "password": "Joshi@786",
+  "invalidemail":"shubhamjoshi1@gmail.com",
+   "invalidpassword":"Joshi@788",
+   "wrongemail":"shubhamjoshi"
+
 }
